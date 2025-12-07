@@ -54,7 +54,7 @@ Preprocessing ensures the model receives uniform and clean inputs, improving acc
 
 ## U Net Model Architecture
 
-<img width="318" height="159" alt="Image" src="https://github.com/user-attachments/assets/e4ab6e39-a415-4ed4-bbca-6b8d2513aead" />
+<img width="1000" height="500" alt="Image" src="https://github.com/user-attachments/assets/cd4ce2f9-1e81-4562-bcb6-ab05bbd5066c" />
 
 The model follows the original U Net structure:
 
@@ -86,6 +86,10 @@ The model follows the original U Net structure:
 
 ## Training Configuration
 
+<img width="1874" height="1015" alt="Image" src="https://github.com/user-attachments/assets/f966450f-db67-4f45-91a0-66a34b42cd6f" />
+
+<img width="1875" height="1009" alt="Image" src="https://github.com/user-attachments/assets/c45492e8-9df9-4c72-9224-e45fd51e66fc" />
+
 Loss Function: **Categorical Cross Entropy**
 Optimizer: **Adam**
 Hyperparameters:
@@ -109,6 +113,20 @@ Validation Accuracy: **98.67 percent**
 Test Accuracy: **98.58 percent**
 
 These results show that the model correctly learns scene features and generalizes well across unseen images.
+
+<img width="1878" height="1013" alt="Image" src="https://github.com/user-attachments/assets/979bd0bb-d157-486f-8953-91a27ecd3d51" />
+
+<img width="1876" height="1015" alt="Image" src="https://github.com/user-attachments/assets/66afe4c3-4a8d-47e8-8006-78288a6a1dba" />
+
+<img width="1876" height="1014" alt="Image" src="https://github.com/user-attachments/assets/8662d508-358f-48a9-8d3a-8272bca9c756" />
+
+<img width="1874" height="1010" alt="Image" src="https://github.com/user-attachments/assets/b9f0affb-91f0-47a6-b180-9ed3c744d18e" />
+
+<img width="1874" height="1010" alt="Image" src="https://github.com/user-attachments/assets/69efc5d5-867b-4589-b0e2-d342feff67ff" />
+
+<img width="1875" height="1006" alt="Image" src="https://github.com/user-attachments/assets/8cd3dc63-867f-4deb-9425-3dd99c7fb554" />
+
+<img width="1875" height="1008" alt="Image" src="https://github.com/user-attachments/assets/4af319b4-e2ca-4aae-8985-75dd0f9162e5" />
 
 ---
 
@@ -150,7 +168,6 @@ Visual outputs prove that U Net can reliably interpret complex driving scenes.
 
 ---
 
-
 ## Tools Used
 
 * Python
@@ -159,6 +176,8 @@ Visual outputs prove that U Net can reliably interpret complex driving scenes.
 * Matplotlib
 * CARLA Simulator dataset
 * Jupyter Notebook
+
+<img width="1876" height="1008" alt="Image" src="https://github.com/user-attachments/assets/6e3ead49-c849-402c-bdfc-8852a3cde10f" />
 
 ---
 
